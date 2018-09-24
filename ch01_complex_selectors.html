@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="In this lesson we will learn CSS Complex Selectors such as Ancestors and Parents">
+    <title>CSS Complex Selectors</title>
+    <style>
+        
+        /* Tag selector */
+        /* Tt will apply style to all of the existing <h1> Tags */
+        h1 {
+            background-color: lightblue;
+        }
+
+        /* Ancestor Descendent Tag*/
+        /* It will apply style to the Ancestor Descendent relation, don't confuse this relation with parent-child relationship*/
+        /* It only applies to the <p> TAGS that are descendants of a <ul> Tag */
+        ul p {
+            background-color: lightgreen;
+        }
+
+        /* Parent Children Tag*/
+        /* It will apply style to the Parent Children relation, don't confuse this relation with Ancestor Descendant relationship*/
+        /* It only applies to the <a> TAGS that are children of a <p> Tag */
+        p > a {
+            background-color: thistle;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Welcome to my new Website!</h1>
+    <p>Here is a link to a search engine: <a href="https://www.google.com">Google.com</a></p>
+
+    <ul>
+        <li><p>Paragraph 1</p></li>
+        <li><p>Paragraph 2</p></li>
+        <li><p>Paragraph 3</p></li>
+        <li><a>Anchor</a></li>
+    </ul>
+
+    <p><img src="images/html_relationships.jpg" alt="HTML Elements relationships" srcset=""></p>
+
+    <footer>
+        <p>For more interesting tutorials please visit: <a href="https://www.frameworktv.com">FrameworkTV.com</a></p>
+    </footer>
+</body>
+</html>

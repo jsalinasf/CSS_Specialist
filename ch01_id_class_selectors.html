@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Here you will information about ID and CLASS Selectors for CSS">
+    <title>ID and Class Selectors</title>
+    <style>
+        
+        /* CLASS Selector is meant to be used with MULTIPLE elements */
+        .headerStyle {
+            background-color: lightcoral;
+        }
+        
+        .headerTextColor {
+            color:whitesmoke;
+        }
+        
+        /* ID Selector is only PAIRED with ONE element */
+        /* Each Element can only have ONE ID Selector */
+        /* ID SElectors have HIGHER PRIORITY than Class Selectors*/
+        #mostImportantInfo {
+            background-color: yellow;
+            color: red;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1 class="headerStyle">Welcome to my New Website!</h1>
+    <p>This is my new website, be sure to check back often because new contents will be added soon</p>
+
+    <h3 class="headerStyle headerTextColor">Here's my contact info:</h3>
+    <p>Name: Student 01</p>
+    <p>Address: 123 ELM Street</p>
+    <p>Town: Springfield</p>
+    <p>State: California</p>
+    <p class="headerStyle" id="mostImportantInfo">Phone Number: (554) 111-22222</P>
+    <footer>
+        <p>For more interesting tutorials please visit: <a href="https://www.frameworktv.com">FrameworkTV.com</a></p>
+    </footer>
+</body>
+</html>
