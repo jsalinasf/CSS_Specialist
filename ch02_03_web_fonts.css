@@ -1,0 +1,14 @@
+
+/* when using WEB FONTS it doesn't matter if the USer has the
+font previously installed or not because the website will go 
+and get it straight from the Google Servers */
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.testParagraph {
+    
+    font-family: "Oswald";
+
+}

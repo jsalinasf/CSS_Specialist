@@ -1,0 +1,20 @@
+.testParagraph {
+    
+    /* How BOLD it is */
+    font-weight: bold;
+
+    /* make the text ITALIC */
+    font-style: italic;
+
+    /* It lets you adjust the SIZE of your Font */
+    font-size: 16px;
+
+    /* Choose the FONT for your webpage*/
+    /* REMEMBER: fonts only work if they have been DOWNLOADED
+     previously on the User Computer*/
+     /* It is a good idea to add several Fonts of Fonts Family 
+     so if the first one fails, the webpage can 
+     use the 2nd or 3rd, etc. */
+    font-family: "Arial", sans-serif;
+
+}

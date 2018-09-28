@@ -1,0 +1,12 @@
+.poem {
+    
+    /* normal, wrap, pre (used to keep the white spaces of the html)*/
+    white-space: pre-wrap;
+    
+    /* left, right, justify, center*/
+    text-align: center;
+    
+    /* Underline, Overline, Line-through*/
+    text-decoration: line-through;
+
+}
