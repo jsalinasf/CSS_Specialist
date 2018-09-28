@@ -1,0 +1,21 @@
+.main_body {
+    width: 1000px;
+    height: 600px;
+    
+    background-image: url("images/gradient.jpg"), url("images/city_bkg.png");
+    
+    /*since I specified two images in the previous property, I had to the same here*/
+    background-size: 100% 60%, auto;
+    background-repeat: no-repeat, repeat-x;
+    background-position: left top, right bottom;
+
+}
+
+h1 {
+    color:lightgreen;
+    font-size: 50px;
+}
+
+footer {
+    color: whitesmoke;
+}

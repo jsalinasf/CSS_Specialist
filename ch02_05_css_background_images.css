@@ -1,0 +1,17 @@
+.main_body {
+    width: 1000px;
+    height: 600px;
+    background-image: url(images/owl_640.jpg);
+    
+    /* auto is the default. It takes the image width and height */
+    /* You can set the size on pixels for width and height */
+    /* You can also use percentage 100% of the width of the image
+    and 70% of the height of the picture*/
+    background-size: 100% 70%;
+
+}
+
+h1 {
+    color:lightblue;
+    font-size: 50px;
+}
