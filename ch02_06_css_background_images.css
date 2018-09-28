@@ -2,11 +2,17 @@
     width: 1000px;
     height: 600px;
     
+    /* it can handle several images at once */
     background-image: url("images/gradient.jpg"), url("images/city_bkg.png");
     
     /*since I specified two images in the previous property, I had to the same here*/
     background-size: 100% 60%, auto;
+
+    /* Use this to repeat the image on x-axis or y-axis */
     background-repeat: no-repeat, repeat-x;
+
+    /* This is where in the page you want to place the image */
+    /* There are other options in here */    
     background-position: left top, right bottom;
 
 }

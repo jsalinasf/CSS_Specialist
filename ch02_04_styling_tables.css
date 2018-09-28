@@ -3,7 +3,7 @@
 
     border: 1px solid black;
     
-    /* It collapses the border */
+    /* It collapses the border between adjacent cells*/
     border-collapse: collapse;
     
     background-color: lightyellow;
@@ -11,7 +11,7 @@
 }
 
 #table_style th {
-    /* when you first enable this property you will see "double borders" you can fix that 
+    /* when you first enable this property you will see "double borders - adjacent cells" you can fix that 
     with border-collapse - line 6 */
     border: 1px solid black;
     padding: 10px;
@@ -20,8 +20,8 @@
 }
 
 #table_style td {
-    /* when you first enable this property you will see "double borders" you can fix that 
-    with border-collapse - line 6*/
+    /* when you first enable this property you will see "double borders - adjacent cells" you can fix that 
+    with border-collapse - line 6 */
     border: 1px solid black;
     padding: 10px;
 }
@@ -29,21 +29,29 @@
 #ul_1 {
     /* The bullet is considered part of the text to center */
     list-style-position: inside;
+
+    /* Figure used for bullets */
     list-style-type: circle;
 }
 
 #ul_2 {
     /* The bullet is not considered as part of the text, the center will take in count only the text */
     list-style-position: outside;
+    
+    /* Figure used for bullets */
     list-style-type: square;
 }
 
 #ol_1 {
     list-style-position: inside;
+    
+    /* Cardinal items used for ORDERED list bullets */
     list-style-type: upper-roman;
 }
 
 #ol_2 {
     list-style-position: outside;
+
+    /* Cardinal items used for ORDERED list bullets */
     list-style-type: lower-alpha;
 }
