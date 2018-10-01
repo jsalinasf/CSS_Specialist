@@ -1,0 +1,26 @@
+a.button {
+    height: 145px;
+    background-color: transparent;
+    background-image: url("images/right.png");
+    background-repeat: no-repeat;
+    background-position: top right;
+    float: left;
+    display: block;
+    padding-right: 50px;
+}
+
+a.button span {
+    background-color: transparent;
+    background-image: url("images/left.png");
+    line-height: 20px;
+    display: block;
+    padding: 62px 0px 62px 20px;
+}
+
+a.button:hover {
+    background-image: url("images/rightHover.png");
+}
+
+a.button span:hover {
+    background-image: url("images/leftHover.png");
+}
