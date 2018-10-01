@@ -24,3 +24,8 @@ a.button:hover {
 a.button span:hover {
     background-image: url("images/leftHover.png");
 }
+
+footer {
+    float: unset;
+    display: block;
+}
