@@ -1,0 +1,25 @@
+#myMenu .subMenu ul {
+    display: none;
+    position:fixed;
+    background-color: lightblue;
+    list-style-type: none;
+    
+    border-left: 3px solid lightpink;
+    border-bottom: 3px solid lightpink;
+    border-right: 3px solid lightpink;
+    margin-top: 0px;
+    padding: 10px;
+}
+
+#myMenu .subMenu:hover ul {
+    display: block;
+}
+
+#myMenu {
+    background-color: lightpink;
+}
+
+#myMenu td {
+    padding-left: 15px;
+    padding-right: 15px;
+}

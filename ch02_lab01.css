@@ -1,0 +1,36 @@
+#main_body {
+    background-image: url("images/backgroudLab.jpeg");
+    background-repeat: no-repeat;
+    background-position: right bottom;    
+}
+
+#my_menu {
+    background-color: darkgreen;
+    color: whitesmoke;
+}
+
+#my_menu .submenu ul {
+    display: none;
+    position: fixed;
+    list-style-type: none;
+    background-color: aliceblue;
+    color: black;
+    padding: 10px;
+    margin-top: 0px;
+    border-left: 3px solid darkgreen;
+    border-bottom: 3px solid darkgreen;
+    border-right: 3px solid darkgreen;
+
+}
+
+#my_menu .submenu:hover ul {
+    display: block;
+}
+
+h1 {
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+ul {
+    list-style-type: square;
+}
