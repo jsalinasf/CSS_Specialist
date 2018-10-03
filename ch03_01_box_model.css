@@ -1,0 +1,16 @@
+.image {
+    background-color: yellowgreen;
+    float:left;
+
+    width: inherit;
+    height: inherit;
+
+    padding: 5px 5px 5px 5px; /* Also possible padding: 10px */
+    border: 5px solid black;
+    margin: 10px 10px 10px 10px; /* It is outside of the border */
+     
+    /* Outline does NOT affect any other elements in the page */
+    /* Outline wont push other elements away*/
+    /* It is just a visual thing */
+    outline: 20px dashed red;
+}

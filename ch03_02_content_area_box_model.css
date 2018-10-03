@@ -1,0 +1,50 @@
+#scroll_box {
+    padding: 0 0 0 0;
+    border: none;
+    margin: 0 0 0 0;
+    outline: 2px dashed red;
+
+    width: 150px;
+    height: 150px;
+
+    overflow: scroll;
+
+}
+
+/* #image {
+    padding: 0 0 0 0;
+    border: none;
+    margin: 0 0 0 0;
+    outline: 2px dashed red;
+
+    width: 150px;
+    height: 150px;
+
+    OVERFLOW wont apply to images because Images get compressed and will
+    fit into the provided width / height, thats why i uploaded this
+    settings to the div that contains the image so the overflow property
+    will apply as I wanted
+
+    overflow:visible;
+} */
+
+#text {
+    padding: 0 0 0 0;
+    border: none;
+    margin: 0 0 0 0;
+    outline: 2px dashed red;
+
+    width: 200px;
+    height: 200px;
+
+    /* Overflow indicates what to with the parts of the element that
+    wont fit in the content area 
+    
+    overflow: hidden --> it will hide the text that wont fit in the
+    provided width / height
+    
+    overflow: scroll --> it will provide lateral and vertical scroll*/
+
+    overflow:scroll;
+
+}
