@@ -1,0 +1,13 @@
+#image {
+    padding: 25px;  /* The white space between the image and the border */
+    
+    /* border-style: solid; */
+    border-style: inset; /* "inset" will add 3D effect and change the colors */
+    
+    border-width: 10px;
+    
+    /* border-color: greenyellow purple red yellow; */
+    border-color: slateblue;    
+    
+    border-radius: 57px;
+}

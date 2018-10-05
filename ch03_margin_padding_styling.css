@@ -1,0 +1,30 @@
+body {
+    margin: 0 0 0 0; /* Removes the browser default margins */
+}
+
+.small-box {
+    padding: 0 0 0 0 ;
+    margin: 0 0 0 0;
+    border: none;
+    display: block; /* Each image will go in a line */
+}
+
+#Pic1{
+    /* padding: 10px 45px 20px 65px; */
+    padding-bottom: 50px;
+
+}
+
+#Pic2{
+    padding-top: 50px;
+}
+
+/* Bottom Margin and Top Margin collapse - Remember Julio's explanation*/
+
+#Pic3{
+    margin-bottom: 50px;
+}
+
+#Pic4{
+    margin-top: 50px;    
+}
