@@ -1,0 +1,24 @@
+.animated {
+    width: 100px;
+    height: 100px;
+    background-color: cadetblue;
+    -webkit-animation: colorChange 6s;
+    -webkit-animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes colorChange {
+    from {
+        background-color: cadetblue;
+    }
+
+    to {
+        background-color: yellowgreen;
+        color:darkviolet;
+    }
+
+    /* Another way to set this animation
+    0%  {background-color: red;}
+    50% {background-color: blue;}
+    100% {background-color: green;} */
+
+}

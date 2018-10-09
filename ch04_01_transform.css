@@ -1,0 +1,39 @@
+body {
+
+}
+
+.image {
+    float: left;
+
+    background-color: green;
+    padding: 10px 10px 10px 10px;
+    border: 1px dashed black;
+    margin: 10px 10px 10px 10px;
+    outline: 10px solid red;
+}
+
+#left {
+
+}
+
+#left:hover {
+
+    /* -webkit was required when this feature it was not fully
+    implemented in most of the browsers. Today it seems 
+    to be no longer required
+
+    /* -webkit-transform: translateX(90px); */
+    /* -webkit-transform: scale(.5); */
+    /* -webkit-transform: rotate(15deg); */
+    /* -webkit-transform: skewY(45deg); */
+    /* -webkit-transform: skew(45deg, 15deg); */
+    transform: skew(45deg, 15deg);
+}
+
+#right {
+
+}
+
+#right:hover {
+
+}
