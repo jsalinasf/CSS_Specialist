@@ -1,7 +1,10 @@
 #main_body {
     background-image: url("images/backgroudLab.jpeg");
     background-repeat: no-repeat;
-    background-position: right bottom;    
+    /* background-position: right bottom; */
+    background-size: cover;
+    color: whitesmoke;
+    text-shadow: 1px 1px black;
 }
 
 #my_menu {
