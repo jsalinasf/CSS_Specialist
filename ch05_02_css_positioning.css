@@ -4,5 +4,16 @@
 
 #target {
     background-color: rgb(150,150,255);
-    position: static;
+    
+    /* top: 100px;
+    position: relative; */
+
+    /* top: 30%;
+    position: absolute; */
+
+    top: 30%;
+    position: fixed;
+    
+    /* z-index: 1; */
+    z-index: -1;
 }
