@@ -1,0 +1,36 @@
+#header {
+    border-radius: 10px;
+    background-color: green;
+    color:white;
+    text-align: center;
+    line-height: 50px;
+    font-size: 1.50em;
+}
+
+li {
+    list-style-type: none;
+    display: inline;
+    padding-inline-end: 100px;
+}
+
+#left-column {
+    border: 1px solid black;
+    width: 48%;
+    float: left;
+    background-color: hsl(60, 100%, 70%);
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#right-column {
+    border: 1px solid black;
+    width: 48%;
+    float: right;
+    background-color: hsl(60, 100%, 70%);
+    border-radius: 10px;
+    padding: 5px;
+}
+
+footer {
+    clear: both;
+}
