@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>CSS Floats</title>
+        <style>
+            .cssFloats {
+                width: 100%;
+            }
+            #parent {
+                background-color: gray;
+                border-top: 10px solid blue;
+                border-bottom: 10px solid purple;
+                overflow: auto;
+            }
+            .left {
+                background-color: red;
+                width: 100px;
+                height: 100px;
+                float: left;
+            }
+            .right {
+                background-color: green;
+                width: 100px;
+                height: 100px;
+                float: right;
+            }
+            footer {
+                clear: both;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Float</h1>
+        <p>Float allows you to take an element in normal flow and place it as far to left or the right of the containing element
+            as possible</p>
+            <p>When using Float, you should also use the "width" property to indicate how wide the floated element should be</p>
+        <img class="cssFloats" src="images/css_floats.png" alt="CSS Floats">
+        <p>Let's see some examples:</p>
+        <br>        
+        <div id="parent">
+            <div class="left"></div>
+            <div class="right"></div>
+        </div>
+        <footer>
+            <p>For more interesting tutorials like this visit: <a href="https://www.eduonix.com">Eduonix</a></p>
+        </footer>
+    </body>
+</html>

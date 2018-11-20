@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>CSS Animations</title>
+        <style>
+            div {
+                width: 200px;
+                height: 200px;
+                background-color: red;
+                position: relative;
+                animation-name: example01;
+                /* Excessive time just for the example */
+                animation-duration: 4s;
+                /* animation-iteration-count: infinite; */
+                animation-iteration-count: 2;
+                animation-delay: 2s;
+
+                /* short hand method */
+                /* animation: example01 4s infinite 2s; */
+
+            }
+            @keyframes example01 {
+                0% { left: 0; top: 0; transform: rotateZ(0deg);}
+                25% { left: 400px; top: 0; transform: rotateZ(90deg);}
+                50% { left: 400px; top: 400px; transform: rotateZ(180deg);}
+                75% { left: 0; top: 400px; transform: rotateZ(270deg);}
+                100% { left: 0; top: 0; transform: rotateZ(360deg);}
+            }
+        </style>
+    </head>
+    <body>
+        <div></div>
+    </body>
+</html>

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>CSS Backgrounds</title>
+        <style>
+            #div01 {
+                width: 600px;
+                height: 600px;
+                border: 3px solid black;
+                background: linear-gradient(aquamarine, yellow);
+            }
+            #div02 {
+                width: 600px;
+                height: 600px;
+                border: 3px solid black;
+                background-image: url("images/pattern2.jpg");
+            }
+            #div03 {
+                width: 600px;
+                height: 600px;
+                border: 3px solid black;
+                background-image: url("images/pattern2.jpg");
+                /* background-repeat: no-repeat; */
+                /* background-repeat: repeat-x; */
+                background-repeat: repeat-y;
+            }
+            #div04 {
+                width: 600px;
+                height: 600px;
+                border: 3px solid black;
+                background-image: url("images/woodenFloor.jpg");
+                background-repeat: no-repeat;
+                
+                /* top bottom right center*/
+                /* background-position: right center;  */
+                background-position: 100px 300px;
+            }
+            #div05 {
+                width: 600px;
+                height: 600px;
+                border: 3px solid black;
+                background-image: url("images/mobile.jpg");
+                background-repeat: no-repeat;
+                background-position: center;
+                /* The following property can expand the image to fit the div totally*/
+                background-size: cover;                
+            }
+            #div06 {
+                width: 600px;
+                height: 600px;
+                border: 3px solid black;
+                background-image: url("images/mobile.jpg");
+                background-repeat: no-repeat;
+                background-position: center;
+                /* The following property can expand the image to fit the div totally*/
+                background-size: cover;   
+                /* PRETTY COOL EFFECT.....! */
+                background-attachment: fixed;             
+            }
+            #div07 {
+                width: 600px;
+                height: 600px;
+                border: 3px solid black;
+                /* Abreviated method */
+                background: #efa url('images/pattern2.jpg') no-repeat center fixed;
+            }
+            #div08 {
+                width: 600px;
+                height: 600px;
+                border: 3px solid black;
+                /* Add multiple backgrounds */
+                background: url('images/pattern2.jpg') repeat-y right, url('images/pattern2.jpg') repeat-y left;
+            }
+            #div09 {
+                width: 600px;
+                height: 600px;
+                border: 3px solid black;
+                /* Add multiple backgrounds */
+                /* COOL EFFECTS!! */
+                background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('images/mac_laptops.jpg') no-repeat center;
+                
+            }
+
+        </style>
+    </head>
+    <body>
+        <h1>Background Properties</h1>
+        <ul>
+            <li>Color</li>
+            <li>Image</li>
+            <li>Repeat</li>
+            <li>Attachment</li>
+            <li>Position</li>
+            <li>Size</li>         
+        </ul>
+    
+        <div></div><div id="div01"></div>
+        <br>
+        <div></div><div id="div02"></div>
+        <br>
+        <div></div><div id="div03"></div>
+        <br>
+        <div></div><div id="div04"></div>
+        <br>
+        <div></div><div id="div05"></div>
+        <br>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad sed explicabo ducimus molestias excepturi atque tempore reiciendis praesentium laborum? Aspernatur omnis eligendi est perferendis nobis optio veritatis consequatur explicabo! Earum quo minus, commodi quia cum officia tempora fuga maiores. Distinctio nostrum dolore omnis eligendi cupiditate iure, laborum voluptates labore tempore quis voluptas, aliquid pariatur eum, voluptate obcaecati maxime. Exercitationem corrupti repellat minus? Explicabo facilis officia assumenda nobis? Expedita quas esse distinctio minus facilis accusamus commodi vero porro repellat est quo impedit iure aspernatur doloribus sapiente at, veniam ea quos beatae perferendis perspiciatis, ut eius quaerat? Optio repellendus facilis quia voluptates assumenda quod, ducimus, id facere odio distinctio iure harum illo dolores quas eveniet rem consequatur incidunt alias. Porro eos distinctio modi debitis eaque quas, perferendis cumque aliquam nobis saepe? Sapiente ipsa unde non eos aspernatur enim dolorem quas harum iure. Beatae, consequatur. Laudantium, incidunt sit? Tempore voluptatem architecto dolorem libero voluptas modi cupiditate illo veritatis autem iure voluptatum commodi, aliquam ea possimus assumenda quod, voluptates necessitatibus dolorum dignissimos molestias? Veniam, veritatis reiciendis. Error corrupti dolorem sint illo tempore, laudantium dolores qui exercitationem eos, neque dolorum est molestias facere perspiciatis eveniet porro corporis aliquam molestiae! Minima cum, alias error nobis est ex. Sunt aperiam, fugit quasi, eos maiores quo aut, inventore necessitatibus eaque dolores delectus nihil quaerat! Expedita, numquam sint, consequatur deleniti velit quae quis eaque molestias ipsam nemo tenetur suscipit fugiat itaque! Ipsa voluptates fuga officia, sequi adipisci excepturi esse aliquam. Laudantium libero est voluptates odit? Voluptatibus quia perferendis laborum unde maxime magni mollitia? Similique consectetur delectus officiis dolor architecto ipsum sint tempora, consequatur cumque ea ipsa mollitia ratione labore modi. Non in dolore ipsa tempora debitis vitae voluptatum perferendis labore, tenetur a ullam maxime hic illo corrupti, natus autem delectus reiciendis voluptatem omnis eligendi error suscipit ipsum voluptas veniam.</p>
+        <div></div><div id="div06"></div>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga quia deleniti vero facere, error sit veniam officiis qui aperiam consequatur quaerat doloremque quam aspernatur? Sequi cum omnis debitis, facilis recusandae ipsum rem harum esse corrupti incidunt! Accusamus corporis similique placeat tenetur eos atque perferendis nisi praesentium beatae incidunt accusantium mollitia, impedit numquam itaque maiores excepturi sint magnam consequatur aliquid. Similique nemo ab libero eius unde labore odio autem enim. Rem, exercitationem quos! Provident porro iure, iusto, explicabo hic quibusdam magni tenetur animi ab impedit commodi placeat praesentium eos repellendus. Aspernatur alias ex laudantium similique ab, illum iste earum explicabo vero aut adipisci impedit culpa, ipsum dolorem pariatur voluptas inventore repellat esse. Reiciendis delectus nemo voluptatum! Architecto modi natus ratione deleniti et possimus libero facilis, illum quia ducimus itaque doloribus blanditiis cumque. Ipsum expedita, pariatur aliquam veniam molestiae maxime, corrupti debitis incidunt numquam commodi odit est officia fugit error deserunt cupiditate. Libero, dicta molestiae quas labore, debitis porro cum voluptatem quibusdam, ex quam perferendis. Eveniet nulla qui odio ipsum sint, commodi labore totam doloremque officia eum ab assumenda! Repellat nostrum ratione quaerat odio id laudantium incidunt ab voluptatem omnis, aliquid corrupti autem. Quae animi dicta ad ipsam deserunt laboriosam ipsa iure sit, optio beatae quo eaque iste possimus voluptates at officiis soluta necessitatibus quasi, porro exercitationem! Quaerat dolores accusantium debitis quibusdam commodi velit nam corporis voluptate voluptas ea officia labore sit cumque, quae illo repellat necessitatibus expedita? Sequi, dolores voluptates alias corrupti, facere mollitia deserunt maiores, possimus odit reprehenderit minima enim. Dolorem consequatur iure omnis repellendus, dicta aliquam fuga nobis non voluptas quae. Voluptatem, minima quis soluta quaerat commodi qui ratione nulla tempora! Ratione veritatis illo doloremque excepturi tenetur totam repellendus fugiat aperiam, sequi ad voluptatem tempore, magnam hic eveniet obcaecati nihil omnis eos aut repellat. Quia provident quidem consequatur. Sit?</p>
+        <div></div><div id="div07"></div>
+        <br>
+        <div></div><div id="div08"></div>
+        <br>
+        <div></div><div id="div09"></div>
+
+    </body>
+</html>
